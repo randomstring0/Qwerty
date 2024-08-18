@@ -1,3 +1,5 @@
+
+
 local sandbox = function(var,func)
 	local env = getfenv(func)
 	local newenv = setmetatable({},{
@@ -80,13 +82,13 @@ table.insert(cors,sandbox(Script2,function()
 		wait()
 	end
 	line:remove()
-	script:remove() 
+	script:remove() 
 end))
 Script2.Disabled = true
 LocalScript3.Name = "MainScript"
 LocalScript3.Parent = Tool0
 table.insert(cors,sandbox(LocalScript3,function()
-	wait() 
+	wait() 
 	tool = script.Parent
 	lineconnect = tool.LineConnect
 	object = nil
@@ -101,7 +103,7 @@ table.insert(cors,sandbox(LocalScript3,function()
 	point.Anchored = true
 	point.formFactor = 0
 	point.Shape = 0
-	point.BrickColor = BrickColor.Blue() 
+	point.BrickColor = BrickColor.Blue() 
 	point.Size = _VTR_new(1,1,1)
 	point.CanCollide = false
 	local mesh = _Ins("SpecialMesh")
@@ -112,10 +114,9 @@ table.insert(cors,sandbox(LocalScript3,function()
 	front = tool.Handle
 	color = tool.Handle
 	objval = nil
-	local hooked = false 
-	local hookBP = BP:clone() 
-	hookBP.maxForce = _VTR_new(30000,30000,30000) 
-
+	local hooked = false 
+	local hookBP = BP:clone() 
+	hookBP.maxForce = _VTR_new(30000,30000,30000) 
 
 	function LineConnect(part1,part2,parent)
 		local p1 = _Ins("ObjectValue")
@@ -141,7 +142,6 @@ table.insert(cors,sandbox(LocalScript3,function()
 			objval = p2
 		end
 	end
-
 
 	function onButton1Down(mouse)
 		if (mousedown==true) then return end
@@ -190,17 +190,16 @@ table.insert(cors,sandbox(LocalScript3,function()
 		objval.Value = nil
 	end
 
-
-	function onKeyDown(key,mouse) 
-		local key = key:lower() 
-		local yesh = false 
-		if (key=="q") then 
-			if (dist>=5) then 
-				dist = dist-5 
-			end 
+	function onKeyDown(key,mouse) 
+		local key = key:lower() 
+		local yesh = false 
+		if (key=="q") then 
+			if (dist>=5) then 
+				dist = dist-5 
+			end 
 		end
-		if (key=="u") then 
-			if (dist ~=1) then 
+		if (key=="u") then 
+			if (dist ~=1) then 
 				BX = _Ins("BodyGyro")
 				BX.MaxTorque = _VTR_new(math.huge,0,math.huge)
 				BX.CFrame = BX.CFrame * CFrame.Angles(0, math.rad(45), 0)
@@ -210,10 +209,9 @@ table.insert(cors,sandbox(LocalScript3,function()
 				--object.Orientation = _VTR_new(50,0,0)
 				--BX.Orientation = _VTR_new(23,0,0)
 
-
-			end 
-		end 
-		if (key=="p") then 
+			end 
+		end 
+		if (key=="p") then 
 			if (dist ~=1) then
 				BX = _Ins("BodyVelocity")
 				BX.maxForce = _VTR_new(0,math.huge,0)
@@ -221,50 +219,50 @@ table.insert(cors,sandbox(LocalScript3,function()
 				--BX.CFrame = BX.CFrame * CFrame.Angles(0, math.rad(45), 0)
 				BX.Parent = object
 
-
-			end 
-		end 
-		if key == "l" then 
-			if (object==nil) then return end 
-			for _,v in pairs(object:children()) do 
-				if v.className == "BodyGyro" then 
-					return nil 
-				end 
-			end 
-			BG = _Ins("BodyGyro") 
-			BG.maxTorque = _VTR_new(math.huge,math.huge,math.huge) 
-			BG.cframe = _CF_new(object.CFrame.p) 
-			BG.Parent = object 
+			end 
+		end 
+		if key == "l" then 
+			if (object==nil) then return end 
+			for _,v in pairs(object:children()) do 
+				if v.className == "BodyGyro" then 
+					return nil 
+				end 
+			end 
+			BG = _Ins("BodyGyro") 
+			BG.maxTorque = _VTR_new(math.huge,math.huge,math.huge) 
+			BG.cframe = _CF_new(object.CFrame.p) 
+			BG.Parent = object 
 			repeat wait() until(object.CFrame == _CF_new(object.CFrame.p))
-			BG.Parent = nil 
-			if (object==nil) then return end 
-			for _,v in pairs(object:children()) do 
-				if v.className == "BodyGyro" then 
-					v.Parent = nil 
-				end 
-			end 
-			object.Velocity = _VTR_new(0,0,0) 
-			object.RotVelocity = _VTR_new(0,0,0) 
-		end 
-		if (key=="y") then 
-			if (dist ~=100) then 
-				dist = 100 
-			end 
-		end 
-		if (key=="j") then 
-			if (dist~=5000) then 
-				dist = 5000 
-			end 
+			BG.Parent = nil 
+			if (object==nil) then return end 
+			for _,v in pairs(object:children()) do 
+				if v.className == "BodyGyro" then 
+					v.Parent = nil 
+				end 
+			end 
+			object.Velocity = _VTR_new(0,0,0) 
+			object.RotVelocity = _VTR_new(0,0,0) 
+		end 
+		if (key=="y") then 
+			if (dist ~=100) then 
+				dist = 100 
+			end 
+		end 
+		if (key=="j") then 
+			if (dist~=5000) then 
+				dist = 5000 
+			end 
 		end
 		if (key=="e") then
 			dist = dist+5
 		end
-		if (key=="x") then 
-			if dist ~= 15 then 
-				dist = 15 
-			end 
-		end 
+		if (key=="x") then 
+			if dist ~= 15 then 
+				dist = 15 
+			end 
+		end 
 	end
+	
 	function onEquipped(mouse)
 		keymouse = mouse
 		local char = tool.Parent
@@ -280,7 +278,6 @@ table.insert(cors,sandbox(LocalScript3,function()
 		end
 	end
 
-
 	tool.Equipped:connect(onEquipped)
 	tool.Unequipped:connect(function() mousedown = false end)
 end))
@@ -294,4 +291,3 @@ for i,v in pairs(cors) do
 		pcall(v)
 	end)
 end
-
