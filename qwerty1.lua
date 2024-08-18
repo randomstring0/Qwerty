@@ -1,7 +1,3 @@
-
-
-
-
 local sandbox = function(var,func)
 	local env = getfenv(func)
 	local newenv = setmetatable({},{
