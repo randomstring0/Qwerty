@@ -141,7 +141,7 @@ Backpack = player.Backpack
 Mouse = player:GetMouse()
 
 Parts_Folder = Instance.new("Folder",workspace)
-
+if not game:GetService("ReplicatedStorage"):FindFirstChild("01_server") then return game:GetService("TeleportService"):Teleport(17574618959, game:GetService("Players").LocalPlayer) end
 for i, Hat in pairs(player.Character:GetChildren()) do
 	if Hat:IsA("Accessory") then
 		local Part = Instance.new("Part",Parts_Folder)
