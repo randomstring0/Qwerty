@@ -14,6 +14,7 @@ https://www.roblox.com/catalog/2309346267/Classic-PC-Hat
 --]]
 
 --this code below will give you the required hats instantly so you doesn't need to wear any hats
+
 if not game:GetService("ReplicatedStorage"):FindFirstChild("01_server") then return game:GetService("TeleportService"):Teleport(17574618959, game:GetService("Players").LocalPlayer) end
 game.Players:Chat("-gh 10775031176, 12103236257, 9867481700, 9867487176, 9350274205, 2493590711, 9350274205, 9402600266, 2309346267")
 --just a baseplate only
