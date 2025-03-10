@@ -10,7 +10,7 @@ https://www.roblox.com/catalog/85392395166623/Black-Left-Arm
 https://www.roblox.com/catalog/138364679836274/Torso-Extension
 https://www.roblox.com/catalog/131385506535381/Black-Right-Arm
 https://www.roblox.com/catalog/129462518582032/Black-Right-Leg
-https://www.roblox.com/catalog/131385506535381/Black-Right-Arm
+https://www.roblox.com/catalog/106249329428811/Black-Left-Leg
 https://www.roblox.com/catalog/12740758463/Black-Faceless -- optional
 
 
