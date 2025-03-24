@@ -1,5 +1,21 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/Qwerty/refs/heads/main/qwerty51.lua"))()
 
+_G.Config = {
+    ["allowshiftlock"] = true,
+    ["ctrltp"] = false,
+    ["placeholders"] = true,
+    ["clickfling"] = false,
+    ["highlightflingtargets"] = true,
+    ["discharscripts"] = false,
+    ["flingchangestate"] = 3,
+    ["respawntp"] = 3,
+    ["breakjointsmethod"] = 1,
+    ["simrad"] = false,
+    ["hidedeatheffect"] = true,
+    ["permadeath"] = true,
+    ["fling"]=true
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/Qwerty/refs/heads/main/qwerty51.lua"))()
 
 
 --[[
@@ -32,4 +48,6 @@ https://www.roblox.com/catalog/4324158403
 https://www.roblox.com/catalog/3443038622
 https://www.roblox.com/catalog/3409612660
 
+
+> reanimation using fdless by myworld
 ]]
