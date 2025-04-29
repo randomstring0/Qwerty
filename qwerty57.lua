@@ -2,6 +2,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/Qwerty/
 
 --[[
 This script will check if the executor you are using has a replicatesignal
-if the executor has a replicatesignal the script will have a permanentdeath function and support in many games such as brookhaven and almost any games
+if the executor has a replicatesignal the script will have a permanentdeath function and hats re-claims method and also support in many games such as brookhaven and almost any games
 and if it does not have a replicatesignal the script will automatically use the respawn loop method
 ]]
