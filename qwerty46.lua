@@ -14,8 +14,8 @@ https://www.roblox.com/catalog/140395948277978/White-Arm-Extension
 
 -- // noob paid rigs for arm // --
 
-https://www.roblox.com/catalog/18641077392
-https://www.roblox.com/catalog/18641142410
+https://www.roblox.com/catalog/84451219120140/Left-Noob-Arm
+https://www.roblox.com/catalog/72292903231768/Right-Noob-Arm
 
 
 --// free hats rig for arm // --
