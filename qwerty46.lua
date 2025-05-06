@@ -9,8 +9,8 @@ choice
 
 -- // white arm paid rigs for arm// --
 
-https://www.roblox.com/catalog/90960046381276
-https://www.roblox.com/catalog/102599402682100
+https://www.roblox.com/catalog/102599402682100/White-Arm-Extension
+https://www.roblox.com/catalog/140395948277978/White-Arm-Extension
 
 -- // noob paid rigs for arm // --
 
