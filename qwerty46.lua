@@ -24,7 +24,7 @@ https://www.roblox.com/catalog/3398308134
 https://www.roblox.com/catalog/3443038622
 
 This script will check if the executor you are using has a replicatesignal
-if the executor has a replicatesignal the script will have a permanentdeath function and hats re-claims method and also support in many games such as brookhaven and almost any games
+if the executor has a replicatesignal the script will have a permanentdeath function and support in many games such as brookhaven and almost any games
 and if it does not have a replicatesignal the script will automatically use the respawn loop method
 
 
