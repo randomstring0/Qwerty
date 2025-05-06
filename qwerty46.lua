@@ -1,6 +1,8 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/Qwerty/refs/heads/main/qwerty45.lua"))()
 
 --[[
+
+testing game : https://www.roblox.com/games/136733829568616/unknown-road-places
 choice
 
 -- // white arm paid rigs for arm// --
@@ -18,6 +20,11 @@ https://www.roblox.com/catalog/18641142410
 
 https://www.roblox.com/catalog/3398308134
 https://www.roblox.com/catalog/3443038622
+
+This script will check if the executor you are using has a replicatesignal
+if the executor has a replicatesignal the script will have a permanentdeath function and hats re-claims method and also support in many games such as brookhaven and almost any games
+and if it does not have a replicatesignal the script will automatically use the respawn loop method
+
 
 > reanimation using Empyrean by emper
 ]]
