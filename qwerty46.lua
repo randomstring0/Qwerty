@@ -44,6 +44,9 @@ answer : I'm guessing you're not wearing the hats I've linked above.
 // why the script not working / keep crashing ?
 answer : There are several possibilities why the script doesn't work, the first = the executor you are using is probably not supported, the second possibility = you copied the script incorrectly (you can copy all the text in this link https://github.com/randomstring0/Qwerty/edit/main/qwerty46.lua), and the third possibility = you spammed the script
 
+// how to wear 2 hats paid hats version?
+you only need a chrome extension like BTRoblox
+
 // how to wear 2 hats paid hats version on mobile?
 answer : The method is the same as above, only you need an additional application that can be used to download extensions, such as an application called "Kiwi Browser".
 
