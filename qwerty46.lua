@@ -1,7 +1,7 @@
 control = "mobile" -- pc / mobile
 --[[
 please read the texts below,
-I really feel annoyed with comments like "I always die and then repawn" and "can you make it use free hats" 
+I really feel annoyed with comments like "I always die and then respawn" and "can you make it use free hats" 
 even though everything has been explained in the explanation below this text
 
 
@@ -10,8 +10,8 @@ choice
 
 -- // white arm paid rigs for arm// --
 
-https://www.roblox.com/catalog/102599402682100/White-Arm-Extension
-https://www.roblox.com/catalog/140395948277978/White-Arm-Extension
+--
+--
 
 -- // noob paid rigs for arm // --
 
@@ -39,7 +39,7 @@ answer : yes
 answer : yes
 
 // why my arm gone?
-answer : I'm guessing you're not wearing the hats I've linked above.
+answer : I'm guessing you're not wearing the hats I've linked above or maybe the hats fall
 
 // why the script not working / keep crashing ?
 answer : There are several possibilities why the script doesn't work, the first = the executor you are using is probably not supported, the second possibility = you copied the script incorrectly (you can copy all the text in this link https://github.com/randomstring0/Qwerty/edit/main/qwerty46.lua), and the third possibility = you spammed the script
